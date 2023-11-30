@@ -19,7 +19,7 @@ const MovieAbout = (props) => {
         </div>
       </div>
       <div className="py-3 flex items-center gap-20">
-        <button className="w-32 outline-none h-10 bg-red-500 text-white rounded-[10px]">
+        <button className="w-32 outline-none h-10 bg-red-500 text-white rounded-[10px]" onClick={() => alert("Working in progress...")}>
           Watch now
         </button>
       </div>
